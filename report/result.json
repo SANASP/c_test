@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-10T08:33:27.043Z",
+        "line": 3,
+        "name": "Successfully login",
+        "description": "",
+        "id": "login-action;successfully-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5819118700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the chrome browser",
+            "match": {
+              "location": "code.user_open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7179839000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open TestMeApp",
+            "match": {
+              "location": "code.user_open_TestMeApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5408946500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click SingIn link",
+            "match": {
+              "location": "code.user_click_SingIn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242697200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the username \"Lalitha\" and password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 47
+                }
+              ],
+              "location": "code.user_enter_the_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266594400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the login button",
+            "match": {
+              "location": "code.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36940200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verify login and pageTitle",
+            "match": {
+              "location": "code.user_verify_login_and_pageTitle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "message login successfully",
+            "match": {
+              "location": "code.message_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "Login fuctionality",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "classpath:day1/login2.feature",
+    "tags": []
+  }
+]
